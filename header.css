@@ -1,0 +1,104 @@
+.header{
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 100;
+    
+}
+.left-section{
+    width: 300px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.hamburger-logo{
+    width: 25px;
+    height: 25px;
+}
+.youtube-logo{
+    width: 155px;
+    height: auto;
+}
+.middle-section{
+    flex: 1;
+    margin-left: 100px;
+    margin-right: 250px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.search-bar{
+    flex: 1;
+    height: 36px;
+    padding-left: 12px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(192, 192,192);
+    box-shadow: inset  1px 1px 1px rgb(96,96,96);
+    border-radius: 20px;
+
+}
+
+.search-button{
+    width: 35px;
+    height: 36px;
+    margin-left: -48px;
+    border: none;
+}
+.search-button-logo{
+    width: 25px;
+    height: 25px;
+}
+.mic-button{
+    width: 40px;
+    height: 40px;
+    margin-left: 19px;
+    padding-right: 7px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(241, 238, 238);
+}
+.mic-button-logo{
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
+    
+}
+.search-bar::placeholder{
+    font-size: 16px;
+}
+.right-section{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+.three-dot-logo{
+    width: 30px;
+    height: 30px;
+}
+.three-dot-logo-image{
+    width: 25px;
+    height: 20px;
+}
+.sign-in-button{
+    width: 87px;
+    height: 40px;
+    border-radius: 20px;
+    border-width: 1px;
+    background-color: #fff;
+}
+.sign-in-logo{
+    width: 65px;
+    height: 34px;
+    margin-top: 0;
+    margin-left: 0;
+}
